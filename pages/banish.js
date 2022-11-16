@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Card from "./Card";
+import DCard from "../components/DCard";
 
-function CoContainer({ search, people, handleShow, show, setPeople }) {
-  const url = "http://localhost:3001/Cohort";
-
-  function handlePatch(id) {
+function Banish({ search, people,setPeople}) {
+   const url = "http://localhost:3001/Cohort"
+  function handlePatch(id){
     const newData = {
-      ban: "true",
+      ban: "false",
     };
     fetch(`${url}/${id}`, {
       method: "PATCH",
@@ -17,34 +16,26 @@ function CoContainer({ search, people, handleShow, show, setPeople }) {
     });
     const updatedToys = people.map((elem) => {
       if (elem.id === id) {
-        return { ...elem, ban: "true" };
+        return { ...elem, ban: "false" };
       } else {
         return elem;
       }
     })
     setPeople(updatedToys);
-  }
-
+}
+  
   const newSearch = people.filter((elem) => {
     return elem.name.toLowerCase().includes(search.toLowerCase());
   });
-
   const display = newSearch.map((elem) => {
-    if (elem.ban === "false") {
-      return (
-        <Card
-          handleShow={handleShow}
-          elem={elem}
-          show={show}
-          handlePatch={handlePatch}
-        />
-      );
-    } else {
-      return "";
-    }
+   if(elem.ban === "true"){
+    return <DCard handlePatch ={handlePatch}elem={elem} />;
+   }else{
+    return '';
+   }
   });
 
   return <ul className="cards">{display}</ul>;
 }
 
-export default CoContainer;
+export default Banish;

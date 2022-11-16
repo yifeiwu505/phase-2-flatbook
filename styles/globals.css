@@ -83,3 +83,6 @@
 .card__detail button {
   text-align: center;
 }
+.hidden{
+  display: none;
+}

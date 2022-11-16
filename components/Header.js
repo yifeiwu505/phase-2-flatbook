@@ -1,6 +1,7 @@
 import image from "next/image";
 import {useState} from 'react'
 import CoContainer from "./coContainer";
+import Sidebar from "../components/Sidebar";
 import Link from 'next/link'
 import{
     BellIcon,
@@ -19,7 +20,11 @@ import{
 import HeaderIcon from "./HeaderIcon";
 
 function Header({setSearch, search}){
-    
+    const [show,setShow]=useState(true)
+    function handleShow(){
+    console.log('hi');
+    setShow(!show)
+}
     return(
     <div className = "sticky top-0 z-50 bg-white items-center p-2 lg:px-5 shadow-md">
           {/* top left part */}
@@ -44,7 +49,7 @@ function Header({setSearch, search}){
                 <div className = "flex space-x-6 md:space-x-2">
                    <Link href="/"><HeaderIcon Icon={HomeIcon} /></Link>  
                    <Link href="/news"> <HeaderIcon Icon={FlagIcon} /></Link>
-                    <HeaderIcon Icon={PlayIcon} />
+                     <Link handleShow={handleShow} show={show} href="/banish"> <HeaderIcon Icon={PlayIcon} /></Link>
                     <HeaderIcon Icon={ShoppingCartIcon} />
                     <HeaderIcon Icon={UserGroupIcon} />
 
@@ -53,6 +58,7 @@ function Header({setSearch, search}){
             </div>
 
             {/* right part */}
+            
             <div className = "flex items-center sm:space-x-2 justify-end">
                 {/* profiles goes here */}
                 <p className ='whitespace-nowrap fontsemibold pr-3'> Your User Name </p>
@@ -63,6 +69,7 @@ function Header({setSearch, search}){
 
 
             </div>
+            
         </div>
     );
 }

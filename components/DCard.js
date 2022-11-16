@@ -1,18 +1,14 @@
-import DCard from "./DCard";
-
-
-
-function Card ({elem,show,handlePatch}){
- function handleBan(){
+import {useState} from 'react'
+function DCard ({elem,handlePatch}){
+ function handleUnBan(){
   const id = elem.id
   handlePatch(id)
  }
- 
 return (
-  <li className={show ? 'hidden':'cards__item'} >
+  <li className='card_display' >
     <div className="card">
       <img
-        // onClick={handleTruth}
+        
         src={elem.image}
         alt={elem.name}
         className="card__image"
@@ -23,12 +19,14 @@ return (
         {/* <h4> Age : {age} </h4> */}
        
         <div className="card__detail">
-          <button  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"> Follow </button>
-          <button onClick={handleBan} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full" > Banish </button>
+          
+          <button onClick={handleUnBan}className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full" > UnBanish </button>
+          
+
         </div>
       </div>
     </div>
   </li>
 );
 }
-export default Card
+export default DCard
