@@ -3,10 +3,13 @@ import Header from "../components/Header"
 import CoContainer from "../components/coContainer"
 import { useRouter } from 'next/router'
 import { useState } from 'react'
+import Sidebar from "../components/Sidebar";
+
+
 export default function Home() {
   const [search, setSearch] = useState('')
   return (
-    <div>
+    <div className="h-screen">
       <Head>
         <title>Flatbook</title>
       </Head>
@@ -14,8 +17,9 @@ export default function Home() {
       {/* there should be a header here */}
       <Header setSearch={setSearch} search={search} />
      
-      <main>
+      <main className="flex">
         <CoContainer search={search} />
+        <Sidebar />
         {/* sidebar
         feed
         widget */}
