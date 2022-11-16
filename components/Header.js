@@ -1,6 +1,7 @@
 import image from "next/image";
 import {useState} from 'react'
 import CoContainer from "./coContainer";
+import Link from 'next/link'
 import{
     BellIcon,
     ChatIcon,
@@ -41,8 +42,8 @@ function Header({setSearch, search}){
             {/* middle part */}
             <div className="flex justify-center flex-grow">
                 <div className = "flex space-x-6 md:space-x-2">
-                    <HeaderIcon Icon={HomeIcon} />
-                    <HeaderIcon Icon={FlagIcon} />
+                   <Link href="/"><HeaderIcon Icon={HomeIcon} /></Link>  
+                   <Link href="/news"> <HeaderIcon Icon={FlagIcon} /></Link>
                     <HeaderIcon Icon={PlayIcon} />
                     <HeaderIcon Icon={ShoppingCartIcon} />
                     <HeaderIcon Icon={UserGroupIcon} />

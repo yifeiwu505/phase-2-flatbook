@@ -18,7 +18,8 @@ return (
         {/* <h4> Age : {age} </h4> */}
        
         <div className="card__detail">
-          
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"> Follow </button>
+          <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full" > Banish </button>
           
 
         </div>
