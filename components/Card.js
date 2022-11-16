@@ -1,8 +1,8 @@
 
 
 
-
 function Card ({elem}){
+  
 return (
   <li className="cards__item">
     <div className="card">
@@ -18,8 +18,8 @@ return (
         {/* <h4> Age : {age} </h4> */}
        
         <div className="card__detail">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"> Follow </button>
-          <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full" > Banish </button>
+          <button className="hover:bg-blue-700 text-white font-bold py-100 px-100 rounded-full">❤️</button>
+          <button className="hover:bg-red-700 text-white font-bold py-100 px-100 rounded-full" >💀</button>
           
 
         </div>

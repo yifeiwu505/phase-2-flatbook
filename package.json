@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@anatoliygatt/heart-switch": "^1.0.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@heroicons/react": "^1.0.6",
     "next": "13.0.3",
     "next-auth": "^4.16.4",

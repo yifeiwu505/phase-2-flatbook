@@ -8,6 +8,22 @@
   }
 }
 
+.flex__center {
+  display: flex;
+  flex-direction: column;
+}
+.news__text{
+  text-align: center;
+}
+.flex__center h2{
+  text-align: center;
+}
+.flex__center {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .cards {
   display: flex;
   flex-wrap: wrap;
