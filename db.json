@@ -109,7 +109,7 @@
       "id": 16,
       "name": "Drew Thalheimer",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U02BDHF9QNM-a221dcf2e79d-512",
-      "description":" ",
+      "description": " ",
       "pronouns": "he/him"
     },
     {
@@ -160,6 +160,12 @@
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0454FMS1MX-f851b6c2f744-512",
       "description": "",
       "pronouns": "he/him"
+    },
+    {
+      "name": "",
+      "img": "",
+      "des": "",
+      "id": 24
     }
   ]
 }

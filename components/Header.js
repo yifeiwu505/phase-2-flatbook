@@ -44,9 +44,10 @@ function Header({setSearch, search}){
                 <div className = "flex space-x-6 md:space-x-2">
                    <Link href="/"><HeaderIcon Icon={HomeIcon} /></Link>  
                    <Link href="/news"> <HeaderIcon Icon={FlagIcon} /></Link>
+                   
                     <HeaderIcon Icon={PlayIcon} />
                     <HeaderIcon Icon={ShoppingCartIcon} />
-                    <HeaderIcon Icon={UserGroupIcon} />
+                    <Link href="/addfren"><HeaderIcon Icon={UserGroupIcon} /> </Link>
 
                 </div>
 
