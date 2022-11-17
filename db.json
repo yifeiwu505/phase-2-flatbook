@@ -42,7 +42,7 @@
       "image": "https://ca.slack-edge.com/T02MD9XTF-U04503WRM8U-ece5545a394d-512",
       "description": "Let's do some cool societal changing shit with coding!",
       "pronouns": "she/hers",
-      "ban": "false",
+      "ban": "true",
       "follow": "false"
     },
     {
@@ -60,7 +60,7 @@
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0450A7URM2-752889b62d3a-512",
       "description": "",
       "pronouns": "he/him",
-      "ban": "false",
+      "ban": "true",
       "follow": "false"
     },
     {
@@ -206,8 +206,15 @@
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
+    },
+    {
+      "name": "Mark",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-c128f168666a-192",
+      "description": "Recovering gambler looking to set his life on track with software programing, untill the Nets start winning again",
+      "ban": "false",
+      "follow": "false",
+      "id": 24
     }
-  
   ],
   "listings": [
     {

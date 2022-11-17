@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   },[])
   return (
   <>
-  <Header setSearch={setSearch} search={search}/>
+  <Header  setSearch={setSearch} search={search}/>
   <Component 
   people={people}
   search={search}
