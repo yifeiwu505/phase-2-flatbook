@@ -24,7 +24,7 @@ function addFren(){
   headers: {
     'Content-Type': 'application/json',
   },
-  body: JSON.stringify(newFri),
+  body: JSON.stringify(newFri), 
 })
 .then(r=>r.json())
 .then(data =>{
