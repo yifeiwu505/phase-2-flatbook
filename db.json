@@ -5,167 +5,259 @@
       "name": "Chett Tiller",
       "image": "https://ca.slack-edge.com/T02MD9XTF-UD88L20GM-6dfe96796dd7-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 2,
       "name": "Alina Pisarenko",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U04454GTXGB-e5f142893fac-512",
       "description": "",
-      "pronouns": "she/hers"
+      "pronouns": "she/hers",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 3,
       "name": "Jacob Kuhn",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U042UB6GSNS-ee86d40c8a80-512",
       "description": "Sometimes I brush my teeth in the shower...It's more efficient that way.",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 4,
       "name": "Ali Eladma",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0234SAG02E-335cb97fa94c-512",
       "description": "I know a good burger spot by NYU",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 5,
       "name": "YiFei wu",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U04503WRM8U-ece5545a394d-512",
       "description": "Let's do some cool societal changing shit with coding!",
-      "pronouns": "she/hers"
+      "pronouns": "she/hers",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 6,
       "name": "Angel Gabriel Marte Caraballo",
       "image": "https://ca.slack-edge.com/T014STEGQH2-U03SLE66MV4-b53479a97d03-72",
       "description": "I like lizards",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "true",
+      "follow": "false"
     },
     {
       "id": 7,
       "name": "Aaron Toplin",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0450A7URM2-752889b62d3a-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 8,
       "name": "Emily Daniels",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0447MXU6AG-8cc78a1764ac-512",
-      "description": "",
-      "pronouns": "she/hers"
+      "description": "My head hurts : )",
+      "pronouns": "she/hers",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 9,
       "name": "Raman Mama ",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0442GN85GX-f774ed4d2a93-512",
       "description": "teenage fever <3",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 10,
       "name": "Alexander Newson",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044Q6SH52R-bd6f9db47906-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 11,
       "name": "Elisa Situ Huang",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U045GUP1JL8-ca4f3e3423ed-512",
       "description": "",
-      "pronouns": "she/hers"
+      "pronouns": "she/hers",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 12,
       "name": "Bernard Legaspi",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U03UWLGH3R7-45dfdc88172e-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 13,
       "name": "Cesar Hernandez",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U041P8KJHJM-a40d28824670-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 14,
       "name": "Connor Mannion",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044HDBF4S3-5369412ed769-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 15,
       "name": "Dovid Edelkopf",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U03T73JKSH2-65f89cc5f57d-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 16,
       "name": "Drew Thalheimer",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U02BDHF9QNM-a221dcf2e79d-512",
       "description": " ",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 17,
       "name": "Elaine Doud",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044B7MR754-9eb40f2b4d64-512",
       "description": "",
-      "pronouns": "she/hers"
+      "pronouns": "she/hers",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 18,
       "name": "Erik Russell",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U03JPGUSK19-924183fa91e7-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 19,
       "name": "Ethan Clark",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044RE5DLN7-084d8dc5241b-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 20,
       "name": "Jack Holmes",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U02MYNF0K1V-db9e52696e2e-512",
       "description": "first time user. looking for adventure. Follow for Follow",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 21,
       "name": "Mark Shkreli",
-      "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-b7e9911e4f04-512",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-ef4c85f6cc3e-192",
       "description": "Mark is a retired gambler who decided to turn his life around by attending the Flatiron Schools Software Engineering program. Mark hates CSS and will stand by that till the day he dies.",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "true",
+      "follow": "false"
     },
     {
       "id": 22,
       "name": "Maxim Polyakov",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U043KGD0EV8-55814e8a1d84-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
     },
     {
       "id": 23,
       "name": "Richmond Nkansah",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0454FMS1MX-f851b6c2f744-512",
       "description": "",
-      "pronouns": "he/him"
+      "pronouns": "he/him",
+      "ban": "false",
+      "follow": "false"
+    }
+  
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "description": "heater",
+      "image": "./images/heater.jpg",
+      "location": "BROOKLYN",
+      "price": "$0"
     },
     {
-      "name": "",
-      "img": "",
-      "des": "",
-      "id": 24
+      "id": 2,
+      "description": "2019 Toyota Tacoma grill",
+      "image": "./images/toyota-grill.jpg",
+      "location": "Williamsburg",
+      "price": "$0"
+    },
+    {
+      "id": 3,
+      "description": "Free Braun 3735 Electric Toothbrush charger",
+      "image": "./images/toothbrush-charger.jpg",
+      "location": "Williamsburg",
+      "price": "$0"
+    },
+    {
+      "id": 4,
+      "description": "FREE Hundreds of DVD/CD Cases - Different Sizes and Colors",
+      "image": "./images/dvd-cases.jpg",
+      "location": "Prospect Heights",
+      "price": "$50"
+    },
+    {
+      "id": 5,
+      "description": "wood",
+      "image": "./images/wood.jpg",
+      "location": "Greenpoint",
+      "price": "$0"
+    },
+    {
+      "id": 6,
+      "description": "Beautiful couch",
+      "image": "./images/couch.jpg",
+      "location": "Bay Ridge",
+      "price": "$0"
+    },
+    {
+      "id": 7,
+      "description": "Treadmill Parts For Free",
+      "image": "./images/treadmill.jpg",
+      "location": "East Flatbush",
+      "price": "$0"
     }
   ]
 }

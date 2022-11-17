@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 
 
-export default function Home({search}) {
+export default function Home({search, people, setPeople}) {
   
 
   return (
@@ -22,8 +22,9 @@ export default function Home({search}) {
       {/* <Header setSearch={setSearch} search={search} /> */}
      
       <main className="flex">
-        <CoContainer search={search} />
-        <Sidebar />
+        <CoContainer search={search} people={people} setPeople={setPeople} />
+        < Sidebar />
+        {/* <Sidebar /> */}
         {/* sidebar
         feed
         widget */}
