@@ -15,7 +15,13 @@ function News(){
  
    const displayNews = news.map((elem) => {
     console.log(elem);
-    return <DisplayNews elem={elem} />
+    return(
+    <div className="main-news">
+        <DisplayNews elem={elem}/>
+    </div> 
+    )
+    
+ 
     
 })
    

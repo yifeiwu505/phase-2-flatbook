@@ -16,6 +16,10 @@
 .news__text{
   text-align: center;
 }
+.news__link{
+  text-align: center;
+  text-decoration: underline;
+}
 .flex__center h2{
   text-align: center;
 }
@@ -24,6 +28,10 @@
   flex-direction: column;
 }
 
+.sidebar{
+  width: 20rem;
+  background-color: red;
+}
 
 .cards {
   display: flex;
@@ -34,17 +42,7 @@
   ;
     
 }
-.Bcards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-background-image: url('/giphy.gif');
-background-size: cover;
 
-  
-}
 .cards__item {
   display: flex;
   padding: 1rem;
@@ -52,11 +50,12 @@ background-size: cover;
 }
 .cards__itemB {
   display: flex;
-  padding: 1rem;
-  width: 25%;
-  
+  height: 27rem;
+  flex-direction: column;
+  padding:1rem;
+  width: 20rem;
+  border:2px solid black;
 }
-
 
 .card {
   background-color: white;
@@ -83,7 +82,6 @@ background-size: cover;
   border-top-right-radius: 0.25rem;
   filter: contrast(70%);
   overflow: hidden;
-  position: relative;
   transition: filter 0.5s cubic-bezier(.43, .41, .22, .91);
 }
 
@@ -198,3 +196,118 @@ background-size: cover;
   font-family: serif;
   font-size: 1rem;
 }
+
+
+/* Add Frined Form  */
+
+.friend-title{
+  color: rgb(59, 130, 246);
+  padding: .25rem 2rem;
+  position: absolute;
+  top: 11rem;
+  border-bottom: 2px solid black;
+  font-size: 3rem;;
+}
+
+.main-container{
+  width: 100%;
+  height: 610px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container{
+  width: 43%;
+  height: 400px;
+  margin: auto;
+  margin-top: 10%;
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(70, 66, 66, 0.51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  width: 550px;
+  height: 40px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 3% 0% 3% 0%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(59, 130, 246);
+}
+
+.btn-container{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+/*Add Friend Form */
+
+
+/* Ban */
+  .main-ban{
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('/giphy.gif');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    gap:20px;
+  }
+
+  .ban-card{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+/* Ban */
+
+/* News */
+
+.main-news{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.news-cont{
+  width: 80%;
+  min-height: 300px;
+  height: auto;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(59, 130, 246);
+  transition: .5s;
+}
+
+.news-cont:hover{
+  transform: scale(1.1);
+}
+
+.news-image{
+  width: 150px;
+ aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+/* News */
+

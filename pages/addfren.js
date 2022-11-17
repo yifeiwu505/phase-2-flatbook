@@ -40,37 +40,56 @@ function addFren({people,setPeople}){
     console.log(name);
   }
     return (
-      <form onSubmit={handleSubmit}>
-        <label>
-          Enter your Friend's name:
-          <input
-            type="text"
-            placeholder="username"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </label>
-        <label>
-          Enter their description:
-          <input
-            type="text"
-            name="why"
-            value={des}
-            onChange={(e) => setDes(e.target.value)}
-          />
-        </label>
-
-        <label>
-          Drop their pics here:
-          <input
-            type="img"
-            name="pics"
-            value={img}
-            onChange={(e) => setImg(e.target.value)}
-          />
-        </label>
-        <button onClick={handleFriend}>Submit</button>
-      </form>
+    <div className="main-container">
+      <h1 className="friend-title">Add as Friend</h1>
+      <div className="form-container">
+        <form onSubmit={handleSubmit}>
+          <label>
+            {/* Search for Friend's : */}
+            <input
+              type="text"
+              placeholder="Username"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="input"
+            />
+          </label>
+          <br />
+          <label>
+            {/* Enter their description: */}
+            <input
+              type="text"
+              name="why"
+              value={des}
+              placeholder="Description"
+              onChange={(e) => setDes(e.target.value)}
+              className="input"
+            />
+          </label>
+          <br />
+          <label>
+            {/* Drop their pics here: */}
+            <input
+              type="img"
+              name="pics"
+              value={img}
+              placeholder="Image"
+              onChange={(e) => setImg(e.target.value)}
+              className="input"
+            />
+          </label>
+          <br />
+          <div className="btn-container">
+            <button
+              className="bg-blue-500 hover:bg-white-100 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+              onClick={handleFriend}
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
     );
 }
 

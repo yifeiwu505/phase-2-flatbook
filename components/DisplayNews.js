@@ -1,9 +1,12 @@
 
 function displayNews({elem}){
+
+  const title = elem.country;
+  console.log(title[0])
     return (
-      <div className="  md:flex bg-grey-100 rounded-xl p-8 md:p-0 dark:bg-grey-800">
+      <div className="news-cont">
         <img
-          className="md:w-48 md:h-auto md:rounded-none"
+          className="news-image"
           align="center"
           src="https://thumbs.dreamstime.com/b/news-woodn-dice-depicting-letters-bundle-small-newspapers-leaning-left-dice-34802664.jpg"
           width={120}
@@ -12,8 +15,11 @@ function displayNews({elem}){
         />
         <div className="news__content"></div>
         <div className="flex-center">
-          <h2 className="mx-auto">{elem.country}</h2>
-          <p className="news__text">{elem.title}</p>
+          <strong className="mx-auto">{title[0].charAt(0).toUpperCase() + title[0].slice(1)}</strong>
+          <br />
+          <a target={elem.link} className="news__link" href={elem.link}>
+            {elem.title}
+          </a>
           <p className="news__text">{elem.description}</p>
         </div>
 

@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Chett Tiller",
       "image": "https://ca.slack-edge.com/T02MD9XTF-UD88L20GM-6dfe96796dd7-512",
-      "description": "",
+      "description": "Hello I am Chett and I might pass this project if you're lucky.",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -186,14 +186,14 @@
       "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-ef4c85f6cc3e-192",
       "description": "Mark is a retired gambler who decided to turn his life around by attending the Flatiron Schools Software Engineering program. Mark hates CSS and will stand by that till the day he dies.",
       "pronouns": "he/him",
-      "ban": "false",
+      "ban": "true",
       "follow": "false"
     },
     {
       "id": 22,
       "name": "Maxim Polyakov",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U043KGD0EV8-55814e8a1d84-512",
-      "description": "",
+      "description": "Buy me on flatbook marketplace!",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -219,10 +219,24 @@
   "listings": [
     {
       "id": 1,
+      "description": "Human Trafficking",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U043KGD0EV8-55814e8a1d84-192",
+      "location": "Flatiron",
+      "price": "$60"
+    },
+    {
+      "id": 9,
       "description": "heater",
       "image": "./images/heater.jpg",
       "location": "BROOKLYN",
       "price": "$0"
+    },
+    {
+      "id": 8,
+      "description": "Emily stickers",
+      "image": "./images/image0.jpeg",
+      "location": "Flatiron",
+      "price": "$2.50"
     },
     {
       "id": 2,

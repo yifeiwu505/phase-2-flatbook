@@ -35,7 +35,7 @@ function Banish({ search, people, setPeople }) {
     }
   });
 
-  return <div className="Bcards">{display}</div>;
+  return <ul className="main-ban">{display}</ul>;
 }
 
 export default Banish;
