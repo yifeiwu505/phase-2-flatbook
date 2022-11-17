@@ -51,7 +51,7 @@
       "image": "https://ca.slack-edge.com/T014STEGQH2-U03SLE66MV4-b53479a97d03-72",
       "description": "I like lizards",
       "pronouns": "he/him",
-      "ban": "false",
+      "ban": "true",
       "follow": "false"
     },
     {
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Emily Daniels",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0447MXU6AG-8cc78a1764ac-512",
-      "description": "",
+      "description": "My head hurts : )",
       "pronouns": "she/hers",
       "ban": "false",
       "follow": "false"
@@ -183,10 +183,10 @@
     {
       "id": 21,
       "name": "Mark Shkreli",
-      "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-b7e9911e4f04-512",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-ef4c85f6cc3e-192",
       "description": "Mark is a retired gambler who decided to turn his life around by attending the Flatiron Schools Software Engineering program. Mark hates CSS and will stand by that till the day he dies.",
       "pronouns": "he/him",
-      "ban": "false",
+      "ban": "true",
       "follow": "false"
     },
     {
@@ -206,6 +206,57 @@
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "description": "heater",
+      "image": "./images/heater.jpg",
+      "location": "BROOKLYN",
+      "price": "$0"
+    },
+    {
+      "id": 2,
+      "description": "2019 Toyota Tacoma grill",
+      "image": "./images/toyota-grill.jpg",
+      "location": "Williamsburg",
+      "price": "$0"
+    },
+    {
+      "id": 3,
+      "description": "Free Braun 3735 Electric Toothbrush charger",
+      "image": "./images/toothbrush-charger.jpg",
+      "location": "Williamsburg",
+      "price": "$0"
+    },
+    {
+      "id": 4,
+      "description": "FREE Hundreds of DVD/CD Cases - Different Sizes and Colors",
+      "image": "./images/dvd-cases.jpg",
+      "location": "Prospect Heights",
+      "price": "$50"
+    },
+    {
+      "id": 5,
+      "description": "wood",
+      "image": "./images/wood.jpg",
+      "location": "Greenpoint",
+      "price": "$0"
+    },
+    {
+      "id": 6,
+      "description": "Beautiful couch",
+      "image": "./images/couch.jpg",
+      "location": "Bay Ridge",
+      "price": "$0"
+    },
+    {
+      "id": 7,
+      "description": "Treadmill Parts For Free",
+      "image": "./images/treadmill.jpg",
+      "location": "East Flatbush",
+      "price": "$0"
     }
   ]
 }

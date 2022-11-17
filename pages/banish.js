@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import DCard from "../components/DCard";
 
-function Banish({ search, people,setPeople}) {
-   const url = "http://localhost:3001/Cohort"
-  function handlePatch(id){
+function Banish({ search, people, setPeople }) {
+  const url = "http://localhost:3001/Cohort";
+  function handlePatch(id) {
     const newData = {
       ban: "false",
     };
@@ -20,22 +20,22 @@ function Banish({ search, people,setPeople}) {
       } else {
         return elem;
       }
-    })
+    });
     setPeople(updatedToys);
-}
-  
+  }
+
   const newSearch = people.filter((elem) => {
     return elem.name.toLowerCase().includes(search.toLowerCase());
   });
   const display = newSearch.map((elem) => {
-   if(elem.ban === "true"){
-    return <DCard handlePatch ={handlePatch}elem={elem} />;
-   }else{
-    return '';
-   }
+    if (elem.ban === "true") {
+      return <DCard handlePatch={handlePatch} elem={elem} />;
+    } else {
+      return "";
+    }
   });
 
-  return <ul className="cards">{display}</ul>;
+  return <div className="Bcards">{display}</div>;
 }
 
 export default Banish;
