@@ -37,7 +37,16 @@ function Header({setSearch, search}){
           />
           <div className="flex ml-2 items-center rounded-full bg-grey-100 p-2 flex-shrink">
             <SearchIcon className="h-6" />
-
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="hidden md:inline-flex ml-2 items-center bg-transparent"
+              type="text"
+              placeholder="Search Flatbook"
+            />
+            </div>
+            </div>
+    
             {/* middle part */}
             <div className="flex justify-center flex-grow">
               <div className="flex space-x-6 md:space-x-2">
@@ -72,21 +81,10 @@ function Header({setSearch, search}){
               <BellIcon className="icon" />
               <ChevronDownIcon className="icon" />
             </div>
-            <input
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="hidden md:inline-flex ml-2 items-center bg-transparent"
-              type="text"
-              placeholder="Search Flatbook"
-            />
+         
           </div>
-        </div>
-
-        {/* middle part */}
        
-
-        {/* right part */}
-      </div>
+      
     );
 }
 export default Header;

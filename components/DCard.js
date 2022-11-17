@@ -9,8 +9,8 @@ return (
     <ul className="Bcards">
       <img src={elem.image} alt={elem.name} className="card__image" />
       <div className="card__content">
-        <div className="card__title">{elem.name}</div>
-        <p className="card__text">{elem.description}</p>
+        <div className="card__titleB">{elem.name}</div>
+        {/* <p className="card__text">{elem.description}</p> */}
         
 
         <div className="card__detail">

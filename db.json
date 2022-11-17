@@ -42,7 +42,7 @@
       "image": "https://ca.slack-edge.com/T02MD9XTF-U04503WRM8U-ece5545a394d-512",
       "description": "Let's do some cool societal changing shit with coding!",
       "pronouns": "she/hers",
-      "ban": "false",
+      "ban": "true",
       "follow": "false"
     },
     {
@@ -51,7 +51,7 @@
       "image": "https://ca.slack-edge.com/T014STEGQH2-U03SLE66MV4-b53479a97d03-72",
       "description": "I like lizards",
       "pronouns": "he/him",
-      "ban": "true",
+      "ban": "false",
       "follow": "false"
     },
     {
@@ -186,7 +186,7 @@
       "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-ef4c85f6cc3e-192",
       "description": "Mark is a retired gambler who decided to turn his life around by attending the Flatiron Schools Software Engineering program. Mark hates CSS and will stand by that till the day he dies.",
       "pronouns": "he/him",
-      "ban": "true",
+      "ban": "false",
       "follow": "false"
     },
     {
@@ -206,8 +206,15 @@
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
+    },
+    {
+      "name": "Mark",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-c128f168666a-192",
+      "description": "Recovering gambler looking to set his life on track with software programing, untill the Nets start winning again",
+      "ban": "false",
+      "follow": "false",
+      "id": 24
     }
-  
   ],
   "listings": [
     {
