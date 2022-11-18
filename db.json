@@ -2,9 +2,9 @@
   "Cohort": [
     {
       "id": 1,
-      "name": "Chett Tiller",
+      "name": "Chet Tiller",
       "image": "https://ca.slack-edge.com/T02MD9XTF-UD88L20GM-6dfe96796dd7-512",
-      "description": "Hello I am Chett and I might pass this project if you're lucky.",
+      "description": "My name is Chett not Chet. I don't like Chet. Don't talk to Chet. He's an imposter.",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -215,6 +215,7 @@
       "follow": "false",
       "id": 24
     }
+   
   ],
   "listings": [
     {

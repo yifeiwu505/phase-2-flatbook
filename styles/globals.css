@@ -42,7 +42,6 @@
   ;
     
 }
-
 .cards__item {
   display: flex;
   padding: 1rem;
@@ -280,11 +279,9 @@
 .main-news{
   width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;
 }
 .news-cont{
-  width: 80%;
+  width: 30%;
   min-height: 300px;
   height: auto;
   margin: 1rem;
