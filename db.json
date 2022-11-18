@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Alina Pisarenko",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U04454GTXGB-e5f142893fac-512",
-      "description": "",
+      "description": "just waiting for my letter from Hogwarts",
       "pronouns": "she/hers",
       "ban": "false",
       "follow": "false"
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Jacob Kuhn",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U042UB6GSNS-ee86d40c8a80-512",
-      "description": "Sometimes I brush my teeth in the shower...It's more efficient that way.",
+      "description": "sometimes I brush my teeth in the shower...It's more efficient that way.",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -40,9 +40,9 @@
       "id": 5,
       "name": "YiFei wu",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U04503WRM8U-ece5545a394d-512",
-      "description": "Let's do some cool societal changing shit with coding!",
+      "description": "cool shit",
       "pronouns": "she/hers",
-      "ban": "true",
+      "ban": "false",
       "follow": "false"
     },
     {
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Aaron Toplin",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0450A7URM2-752889b62d3a-512",
-      "description": "",
+      "description": "dark lord Aaron the Dark",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Emily Daniels",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0447MXU6AG-8cc78a1764ac-512",
-      "description": "My head hurts : )",
+      "description": "my head hurts : )",
       "pronouns": "she/hers",
       "ban": "false",
       "follow": "false"
@@ -85,7 +85,7 @@
       "id": 10,
       "name": "Alexander Newson",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044Q6SH52R-bd6f9db47906-512",
-      "description": "",
+      "description": "hey I'm Alex born and raised in Brussels, Belgium. raised in a multicultural family family speaking 3 languages. loves Music, dance, food, basically having fun. see ya!",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -94,7 +94,7 @@
       "id": 11,
       "name": "Elisa Situ Huang",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U045GUP1JL8-ca4f3e3423ed-512",
-      "description": "",
+      "description": "hi I'm Elisa. I laugh when I'm uncomfortable, and I'm uncomfortable.",
       "pronouns": "she/hers",
       "ban": "false",
       "follow": "false"
@@ -103,7 +103,7 @@
       "id": 12,
       "name": "Bernard Legaspi",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U03UWLGH3R7-45dfdc88172e-512",
-      "description": "",
+      "description": "a strong ass software engineer who loves to cook and keep it 100. listens to house music and is a walking tank. on god",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -112,7 +112,7 @@
       "id": 13,
       "name": "Cesar Hernandez",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U041P8KJHJM-a40d28824670-512",
-      "description": "",
+      "description": " I'm the oldest of my five siblings, I'm really into Soccer and a fan of a team called Real Madrid.",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -121,7 +121,7 @@
       "id": 14,
       "name": "Connor Mannion",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044HDBF4S3-5369412ed769-512",
-      "description": "",
+      "description": "multi-billionare playboy",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -130,7 +130,7 @@
       "id": 15,
       "name": "Dovid Edelkopf",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U03T73JKSH2-65f89cc5f57d-512",
-      "description": "",
+      "description": "like to surf, skate, eat pizza, veg out at the beach, read books and eat food",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -139,7 +139,7 @@
       "id": 16,
       "name": "Drew Thalheimer",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U02BDHF9QNM-a221dcf2e79d-512",
-      "description": " ",
+      "description": "this text is here because yifei made me write it. this would not exist without yifei. the text says:'thank you, yifei'. ",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -148,7 +148,7 @@
       "id": 17,
       "name": "Elaine Doud",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044B7MR754-9eb40f2b4d64-512",
-      "description": "",
+      "description": "I am an introvert who likes dorky things like 19th century books and watching Test Kitchen.",
       "pronouns": "she/hers",
       "ban": "false",
       "follow": "false"
@@ -157,7 +157,7 @@
       "id": 18,
       "name": "Erik Russell",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U03JPGUSK19-924183fa91e7-512",
-      "description": "",
+      "description": "kaltrunner:Noise god! here for a good time :)",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -166,7 +166,7 @@
       "id": 19,
       "name": "Ethan Clark",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U044RE5DLN7-084d8dc5241b-512",
-      "description": "",
+      "description": "empty string",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -175,7 +175,7 @@
       "id": 20,
       "name": "Jack Holmes",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U02MYNF0K1V-db9e52696e2e-512",
-      "description": "first time user. looking for adventure. Follow for Follow",
+      "description": "first time user. looking for adventure. follow for Follow",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -193,7 +193,7 @@
       "id": 22,
       "name": "Maxim Polyakov",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U043KGD0EV8-55814e8a1d84-512",
-      "description": "Buy me on flatbook marketplace!",
+      "description": "buy me on flatbook marketplace!",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -202,7 +202,7 @@
       "id": 23,
       "name": "Richmond Nkansah",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U0454FMS1MX-f851b6c2f744-512",
-      "description": "",
+      "description": "hello it's me Richmond. I love Lasagna",
       "pronouns": "he/him",
       "ban": "false",
       "follow": "false"
@@ -210,20 +210,29 @@
     {
       "name": "Mark",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U043PTVGNG7-c128f168666a-192",
-      "description": "Recovering gambler looking to set his life on track with software programing, untill the Nets start winning again",
+      "description": "recovering gambler looking to set his life on track with software programing, untill the Nets start winning again",
       "ban": "false",
       "follow": "false",
       "id": 24
+    },
+    {
+      "name": "Abena Adu",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U044PMQQV7Y-3fe04e2cfa9b-512",
+      "description": "I'm here for a good time, not a long time",
+      "ban": "false",
+      "follow": "false",
+      "id": 25
     }
    
   ],
+
   "listings": [
     {
       "id": 1,
-      "description": "Human Trafficking",
+      "description": "um hi i am a mother i no longer want my son",
       "image": "https://ca.slack-edge.com/T02MD9XTF-U043KGD0EV8-55814e8a1d84-192",
       "location": "Flatiron",
-      "price": "$60"
+      "price": "free"
     },
     {
       "id": 9,
