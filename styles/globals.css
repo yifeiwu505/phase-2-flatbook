@@ -91,7 +91,7 @@
 
 
 .card__title {
-  color: #696969;
+  color: #264671;
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
@@ -107,8 +107,10 @@
 
 .card__text,
 .card__detail p {
+  color: #696969;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   flex: 1 1 auto;
-  font-size: 0.875rem;
+  font-size: 1 rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
 }
