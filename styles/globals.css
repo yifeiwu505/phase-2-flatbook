@@ -281,9 +281,11 @@
 .main-news{
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 .news-cont{
-  width: 30%;
+  width: 90%;
   min-height: 300px;
   height: auto;
   margin: 1rem;
